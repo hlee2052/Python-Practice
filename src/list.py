@@ -18,3 +18,9 @@ print(list[:2]) #ab
 
 print(list[:-100]) # []
 print(list[:100]) # [a,b,c,d,e]
+
+arr = [3]
+arr = [0] + arr
+print(arr) # [0,3]
+arr = arr + [4]
+print(arr) # [0, 3, 4]

@@ -6,6 +6,13 @@ Python Counter
 #############
 '''
 
+'''
+initializations
+'''
+
+p = "donkeyduck"
+pCounter = Counter(p[:len(p)-1])
+
 
 word = "pen pineapple apple pen"
 
@@ -40,3 +47,5 @@ Delete
 animalCounts = Counter({'dog':4, 'cat':12, 'buffalo':50})
 del animalCounts['buffalo'] # delete entry from counter
 print(animalCounts)
+
+
